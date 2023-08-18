@@ -31,11 +31,12 @@
     right: 10px;
     color: chartreuse;
     cursor: pointer; }
-  .header__inner-authorization .form-registration button {
-    margin-top: 10px;
+  .header__inner-authorization .form-registration a {
+    margin-top: 15px;
     color: wheat;
     border: 1px solid white;
     background: none;
-    padding: 5px; }
+    padding: 5px;
+    text-decoration: none; }
 
 /*# sourceMappingURL=LoginRegistr.css.map */

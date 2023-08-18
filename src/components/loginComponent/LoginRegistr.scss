@@ -38,11 +38,12 @@
     color: chartreuse;
     cursor: pointer;
   }
-  .form-registration button {
-    margin-top: 10px;
+  .form-registration a {
+    margin-top: 15px;
     color: wheat;
     border: 1px solid white;
     background: none;
     padding: 5px;
+    text-decoration: none;
   }
 }

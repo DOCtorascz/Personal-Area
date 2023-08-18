@@ -28,4 +28,21 @@
   .container .header__bt-inner .header__nav-bt:last-child {
     margin-right: 0px; }
 
+.ticket {
+  max-width: 500px;
+  height: 300px;
+  background: white;
+  overflow: auto;
+  margin-top: 30px; }
+
+.header__nav-bt {
+  border: none;
+  padding: 10px 15px;
+  background: linear-gradient(45deg, #d70000, #350b0b);
+  transform: translate(0, 0);
+  color: white;
+  border-bottom: 1px solid transparent;
+  border-right: 1px solid transparent;
+  transition: 1s; }
+
 /*# sourceMappingURL=style.css.map */

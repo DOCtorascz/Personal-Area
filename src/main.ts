@@ -5,7 +5,7 @@ import PrimeVue from 'primevue/config';
 import { createRouter, createWebHistory } from "vue-router";
 import UpPage from './pages/UpPage.vue'
 import LoginPage from './pages/LoginPage.vue'
-import ProfilePage from './pages/UpPage.vue'
+import ProfilePage from './pages/ProfilePage.vue'
 import TicketPage from './pages/TicketPage.vue'
 
 const router = createRouter({
@@ -17,8 +17,18 @@ const router = createRouter({
   },
   {
     name: 'Login',
-    path: '/Login',
+    path: '/login',
     component: LoginPage,
+  },
+  {
+    name: 'Profile',
+    path: '/profile',
+    component: ProfilePage,
+  },
+  {
+    name: 'Ticket',
+    path: '/Ticket',
+    component: TicketPage,
   }]
 })
 
