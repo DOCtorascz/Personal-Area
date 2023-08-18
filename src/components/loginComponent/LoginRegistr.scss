@@ -1,0 +1,48 @@
+.header__inner-authorization {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #2c2937;
+  .form-registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 430px;
+    margin: 0 auto;
+  }
+  .regist-login {
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  .regist-login::-moz-placeholder { 
+    color: rgb(255, 255, 255); 
+  }
+  .regist-login::-webkit-input-placeholder { 
+    color: rgb(248, 248, 248); 
+  }
+  .content-form {
+    width: 100%;
+    border: 1px solid white;
+    background: black;
+    color: white;
+  }
+  input.p-inputtext.p-component.p-password-input {
+    background: inherit;
+    color: inherit;
+    padding: 10px 30px 10px 10px;
+    border: inherit;
+    width: 100%;
+  }
+  .p-input-icon-right > svg {
+    right: 10px;
+    color: chartreuse;
+    cursor: pointer;
+  }
+  .form-registration button {
+    margin-top: 10px;
+    color: wheat;
+    border: 1px solid white;
+    background: none;
+    padding: 5px;
+  }
+}

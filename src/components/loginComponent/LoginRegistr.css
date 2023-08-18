@@ -1,0 +1,41 @@
+.header__inner-authorization {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #2c2937; }
+  .header__inner-authorization .form-registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 430px;
+    margin: 0 auto; }
+  .header__inner-authorization .regist-login {
+    margin-bottom: 20px;
+    padding: 10px; }
+  .header__inner-authorization .regist-login::-moz-placeholder {
+    color: white; }
+  .header__inner-authorization .regist-login::-webkit-input-placeholder {
+    color: #f8f8f8; }
+  .header__inner-authorization .content-form {
+    width: 100%;
+    border: 1px solid white;
+    background: black;
+    color: white; }
+  .header__inner-authorization input.p-inputtext.p-component.p-password-input {
+    background: inherit;
+    color: inherit;
+    padding: 10px 30px 10px 10px;
+    border: inherit;
+    width: 100%; }
+  .header__inner-authorization .p-input-icon-right > svg {
+    right: 10px;
+    color: chartreuse;
+    cursor: pointer; }
+  .header__inner-authorization .form-registration button {
+    margin-top: 10px;
+    color: wheat;
+    border: 1px solid white;
+    background: none;
+    padding: 5px; }
+
+/*# sourceMappingURL=LoginRegistr.css.map */
